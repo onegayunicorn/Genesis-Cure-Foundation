@@ -1,0 +1,6 @@
+{
+  "name": "Genesis Cure Foundation",
+  "description": "Quantum-optimized DMD gene therapy platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
