@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
-    "preview": "vite preview",
+    "preview": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit"
   },
@@ -29,7 +30,7 @@
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",
-    "vite": "^6.2.3",
+    "wrangler": "^4.123.0",
     "@types/express": "^4.17.21"
   }
 }
